@@ -85,7 +85,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* These three codes are connected to the right (vertical) side giving the text space and color*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost
@@ -93,7 +93,8 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* h3 defines a level-three heading 
+making it smaller compared to the other text*/
 .benefit-lead h3, 
 .benefit-brand h3,
 .benefit-cost h3
@@ -110,7 +111,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* This code will share the same font-family style 
+and adding sans-serif at last since it is used every other browser*/
 .search-engine-optimization, 
 .online-reputation-management,
 .social-media-marketing
@@ -122,14 +124,15 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* This gives the img that are being presented a size to fit in the page*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img
 {
     max-height: 200px;
 }
-
+/* h2 defines a level-two heading
+making it smaller compared to h1 but bigger than h3 */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2
